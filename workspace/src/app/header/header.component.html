@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <a class=" logo navbar-brand">Imad Yasin</a>
+
+
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+    <ul class="navbar-nav just">
+     <li><a class="nav-item nav-link active" (click)="scrollTo('mainpage')">Home</a></li>
+     <li><a class="nav-item nav-link active" (click)="scrollTo('mainpage')">About</a></li>
+     <li><a class="nav-item nav-link active" (click)="scrollTo('services')">Service</a></li>
+     <li><a class="nav-item nav-link active" (click)="scrollTo('contacts')">Contact Me</a></li>
+    </ul>
+  </div>
+  <button (click)="handleClick()" class="btn1" id="mybutton">Download-CV</button>
+</nav>
