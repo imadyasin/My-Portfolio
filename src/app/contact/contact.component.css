@@ -1,0 +1,91 @@
+.header{
+  background-color: black;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+}
+
+.box1{
+  box-sizing: inherit;
+  border: 0;
+  background-color:#180000 ;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px
+}
+.box{
+  padding-left: 20px;
+  display: flex;
+  justify-content: left;
+  background-color: #180000;
+  border: none;
+  color: white;
+
+}
+.box1 h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2{
+  box-sizing: inherit;
+  border: 0;
+  background-color:#A8A8A8;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+}
+.box2 h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+---------------
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input, textarea {
+  width: 80%;
+  padding: 10px ;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+textarea {
+  resize: vertical;
+}
+button {
+  justify-content: center;
+  align-items: center;
+  display: block;
+  width: 20%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding-left: 100px;
+
+}

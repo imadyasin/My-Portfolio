@@ -1,0 +1,29 @@
+.row{
+  background-color: black;
+  padding-top: 80px;
+  }
+
+
+.card
+{
+background-color: black;
+color: white;
+}
+
+
+.header-text{
+margin-top: 0;
+font-size: 20px;
+}
+
+.header-text h1{
+  font-size: 50px;
+  margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header-text h1 span{
+  color: #ff004f
+}
+.color{
+  color:yellowgreen;
+}
